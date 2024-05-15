@@ -1,0 +1,21 @@
+{
+  "name": "jambonz-translation-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "jslint": "eslint app.js lib"
+  },
+  "author": "Dave Horton",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/translate": "^8.2.0",
+    "@jambonz/node-client-ws": "^0.1.42",
+    "pino": "^9.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
